@@ -34,39 +34,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# ============================================================
-# 0. 경로 / 기본값
-#
-# 프로젝트 구조
-#
-# project/
-# ├─ app.py
-# └─ data/
-#    ├─ MOCT_LINK.shp
-#    ├─ MOCT_LINK.shx
-#    ├─ MOCT_LINK.dbf
-#    ├─ MOCT_LINK.prj
-#    ├─ depot.csv
-#    ├─ drivers.csv
-#    ├─ deliveries.csv
-#    ├─ knowledge.csv
-#    └─ routes_before_v2.csv
-# ============================================================
-
-# GitHub / Streamlit 배포용 경로
-# 저장소 구조:
-# repository/
-# ├─ app.py
-# └─ data/
-#    ├─ seoul.shp
-#    ├─ seoul.shx
-#    ├─ seoul.dbf
-#    ├─ seoul.prj
-#    ├─ depot.csv
-#    ├─ drivers.csv
-#    ├─ deliveries.csv
-#    ├─ knowledge.csv
-#    └─ routes_before_v2.csv
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
