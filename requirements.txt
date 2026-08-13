@@ -1,0 +1,10 @@
+streamlit>=1.37
+pandas>=2.0
+numpy>=1.26
+geopandas>=0.14
+networkx>=3.2
+pydeck>=0.9
+shapely>=2.0
+pyproj>=3.6
+pyogrio>=0.9
+google-genai>=1.0
