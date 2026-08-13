@@ -1,0 +1,4 @@
+﻿knowledge_id,location,knowledge_type,description,extra_delay_min
+K001,배송지_03,congestion,오후 시간대 주변 도로가 혼잡함,15
+K002,배송지_07,unloading,하역 시간이 일반 배송지보다 오래 걸림,20
+K003,배송지_12,access,대형 차량 진입이 어려움,10
